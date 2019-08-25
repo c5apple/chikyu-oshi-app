@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { QuestionModule } from './question/question.module';
 import { MyAdsenseModule } from './shared/component/my-adsense/my-adsense.module';
 
 @NgModule({
@@ -12,6 +13,7 @@ import { MyAdsenseModule } from './shared/component/my-adsense/my-adsense.module
   imports: [
     BrowserModule,
     AppRoutingModule,
+    QuestionModule,
     MyAdsenseModule
   ],
   providers: [],

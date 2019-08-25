@@ -1,0 +1,23 @@
+<h2 class="h4"><span class="red">世界遺産</span>の名称をお答えください。</h2>
+
+<video #videoPlayer (click)="toggleVideo()">
+  <source src="./assets/machu.webm" type="video/webm" />
+  地球を再生できません。友達のスマホを借りてみてね。
+</video>
+
+<div class="container">
+  <ng-container *ngIf="canplay">
+    <ng-container *ngIf="!isStarted">
+      <button type="button" (click)="play()" [disabled]="isStarted">スタート!!</button>
+    </ng-container>
+
+    <ng-container *ngIf="isStarted && !isPaused()">
+      <button type="button" (click)="pause()" [disabled]="isPaused()">分かった!!</button>
+    </ng-container>
+
+    <div *ngIf="isStarted && isPaused()" class="animated bounceIn">
+      <input type="text" [disabled]="!isPaused()" placeholder="出た！地球押し！答えを......どうぞ！" />
+      <button type="button">答え合わせする</button>
+    </div>
+  </ng-container>
+</div>
