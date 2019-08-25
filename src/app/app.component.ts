@@ -1,23 +1,27 @@
-import { Component, ViewChild, ElementRef, OnInit } from '@angular/core';
+import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements AfterViewInit {
 
-  @ViewChild('videoPlayer') public videoPlayer: ElementRef;
+  @ViewChild('videoPlayer') videoPlayer: ElementRef;
 
   isStarted = false;
+  canplay = false;
 
-  ngOnInit(): void {
-    this.videoPlayer.nativeElement.onloadeddata = () => {
-      this.play();
-    }
+  ngAfterViewInit(): void {
+    this.videoPlayer.nativeElement.addEventListener('canplaythrough', () => {
+      this.canplay = true;
+    });
   }
 
-  toggleVideo(event: any) {
+  toggleVideo(): void {
+    if (!this.canplay) {
+      return;
+    }
     if (this.isStarted) {
       this.pause();
     } else {
