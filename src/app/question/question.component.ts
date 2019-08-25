@@ -11,6 +11,7 @@ export class QuestionComponent implements OnInit, AfterViewInit {
 
   isStarted = false;
   canplay = false;
+  answerShowed = false;
 
   constructor() { }
 
@@ -46,5 +47,9 @@ export class QuestionComponent implements OnInit, AfterViewInit {
 
   isPaused(): boolean {
     return this.videoPlayer.nativeElement.paused;
+  }
+
+  showAnswer(): void {
+    this.answerShowed = true;
   }
 }

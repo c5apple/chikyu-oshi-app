@@ -16,8 +16,9 @@
     </ng-container>
 
     <div *ngIf="isStarted && isPaused()" class="animated bounceIn">
-      <input type="text" [disabled]="!isPaused()" placeholder="出た！地球押し！答えを......どうぞ！" />
-      <button type="button">答え合わせする</button>
+      <input type="text" [disabled]="!isPaused() || answerShowed" placeholder="出た！地球押し！答えを......どうぞ！" />
+      <button type="button" (click)="showAnswer()" *ngIf="!answerShowed">答え合わせする</button>
+      <h2 *ngIf="answerShowed" class="h4 animated fadeIn">答え：マチュピチュ</h2>
     </div>
   </ng-container>
 </div>
