@@ -1,8 +1,8 @@
-<div class="animated fadeIn">
+<div class="animated fadeIn" *ngIf="question">
   <h2 class="h4"><span class="red">世界遺産</span>の名称をお答えください。</h2>
 
   <video #videoPlayer (click)="toggleVideo()">
-    <source src="./assets/machu.webm" type="video/webm" />
+    <source [src]="question.videoUrl" type="video/webm" />
     地球を再生できません。友達のスマホを借りてみてね。
   </video>
 
@@ -19,7 +19,7 @@
       <div *ngIf="isStarted && isPaused()" class="animated bounceIn">
         <input type="text" [disabled]="!isPaused() || answerShowed" placeholder="出た！地球押し！答えを......どうぞ！" />
         <button type="button" (click)="showAnswer()" *ngIf="!answerShowed">答え合わせする</button>
-        <h2 *ngIf="answerShowed" class="h4 animated fadeIn">答え：マチュピチュ</h2>
+        <h2 *ngIf="answerShowed" class="h4 animated fadeIn">答え：{{question.answer}}</h2>
       </div>
     </ng-container>
   </div>
