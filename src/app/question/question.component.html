@@ -19,7 +19,12 @@
       <div *ngIf="isStarted && isPaused()" class="animated bounceIn">
         <input type="text" [disabled]="!isPaused() || answerShowed" placeholder="出た！地球押し！答えを......どうぞ！" />
         <button type="button" (click)="showAnswer()" *ngIf="!answerShowed">答え合わせする</button>
-        <h2 *ngIf="answerShowed" class="h4 animated fadeIn">答え：{{question.answer}}</h2>
+
+        <div *ngIf="answerShowed" class="animated fadeIn">
+          <h2 class="h4">答え：{{question.answer}}</h2>
+          <div class="explanation">{{question.explanation}}</div>
+          <button type="button" routerLink="/question">次の世界遺産へ</button>
+        </div>
       </div>
     </ng-container>
   </div>

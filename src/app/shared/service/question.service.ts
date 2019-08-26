@@ -16,8 +16,8 @@ export class QuestionService {
     {
       id: 1,
       cd: 'nFXQmeS4hu',
-      answer: 'マチュピチュ',
-      explanation: '',
+      answer: 'マチュ・ピチュの歴史保護区',
+      explanation: '1983年に登録された世界複合遺産です。',
       videoUrl: './assets/machu.webm'
     }
   ];
