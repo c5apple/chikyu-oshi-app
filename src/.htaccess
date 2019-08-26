@@ -19,17 +19,17 @@ FileETag MTime Size
 <IfModule mod_deflate.c>
 SetOutputFilter DEFLATE
 
-# Mozilla4ŒnAIE7A8‚ÌŒÃ‚¢ƒuƒ‰ƒEƒU‚Å‚Í–³Œø‚É‚·‚é
+# Mozilla4ç³»ã€IE7ã€8ã®å¤ã„ãƒ–ãƒ©ã‚¦ã‚¶ã§ã¯ç„¡åŠ¹ã«ã™ã‚‹
 BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch ^Mozilla/4 gzip-only-text/html
 BrowserMatch \bMSIE\s(7|8) !no-gzip !gzip-only-text/html
 
-# GIFAJPEGAPNGAICO‚È‚Çˆ³kÏ‚İ‚Ì‰æ‘œ‚ÍÄˆ³k‚µ‚È‚¢
+# GIFã€JPEGã€PNGã€ICOãªã©åœ§ç¸®æ¸ˆã¿ã®ç”»åƒã¯å†åœ§ç¸®ã—ãªã„
 SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|ico)$ no-gzip dont-vary
-# ƒvƒƒNƒVƒT[ƒo‚ªŠÔˆá‚Á‚½ƒRƒ“ƒeƒ“ƒc‚ğ”z•z‚µ‚È‚¢‚æ‚¤‚É‚·‚é
+# ãƒ—ãƒ­ã‚¯ã‚·ã‚µãƒ¼ãƒãŒé–“é•ã£ãŸã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚’é…å¸ƒã—ãªã„ã‚ˆã†ã«ã™ã‚‹
 Header append Vary Accept-Encoding env=!dont-vary
 
-# ŠeƒRƒ“ƒeƒ“ƒc‚ğˆ³k‚·‚éİ’è‚ğ‹Lq
+# å„ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚’åœ§ç¸®ã™ã‚‹è¨­å®šã‚’è¨˜è¿°
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
 AddOutputFilterByType DEFLATE text/xml
