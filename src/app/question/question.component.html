@@ -17,15 +17,22 @@
       </ng-container>
 
       <div *ngIf="isStarted && isPaused()" class="animated bounceIn">
-        <input type="text" [disabled]="!isPaused() || answerShowed" placeholder="出た！地球押し！答えを......どうぞ！" />
-        <button type="button" (click)="showAnswer()" *ngIf="!answerShowed">答え合わせする</button>
+        <div class="row">
+          <div class="column column-80 column-offset-10">
+            <input type="text" [disabled]="!isPaused() || answerShowed" placeholder="出た！地球押し！答えを...どうぞ！" />
+            <button type="button" (click)="showAnswer()" *ngIf="!answerShowed">答え合わせする</button>
+          </div>
 
-        <div *ngIf="answerShowed" class="animated fadeIn">
-          <h2 class="h4">答え：{{question.answer}}</h2>
-          <div class="explanation">{{question.explanation}}</div>
-          <button type="button" routerLink="/question">次の世界遺産へ</button>
+        </div>
+        <div class="row">
+          <div *ngIf="answerShowed" class="animated fadeIn column">
+            <h2 class="h4">答え：{{question.answer}}</h2>
+            <div class="explanation">{{question.explanation}}</div>
+            <button type="button" routerLink="/question">次の世界遺産へ</button>
+          </div>
         </div>
       </div>
     </ng-container>
+    <app-share></app-share>
   </div>
 </div>
