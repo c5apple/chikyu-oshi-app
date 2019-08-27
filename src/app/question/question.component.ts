@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit, ViewChild, ElementRef, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { QuestionService, Question } from '../shared/service';
+import { QuestionService, Question } from '../shared/service/question';
 
 @Component({
   selector: 'app-question',
