@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
       window.scrollTo(0, 0);
 
       // tracking
-      this.gaService.sendPageView(params.url);
+      this.gaService.sendPageView(location.pathname);
     });
   }
 }
