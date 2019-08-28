@@ -27,7 +27,13 @@
         <div class="row">
           <div *ngIf="answerShowed" class="animated fadeIn column">
             <h2 class="h4">答え：{{question.answer}}</h2>
-            <div class="explanation">{{question.explanation}}</div>
+            <div class="explanation">
+              <figure>
+                <img [src]="question.flagUrl" [alt]="question.region" [title]="question.region" width="100">
+                <figcaption>{{question.region}}</figcaption>
+              </figure>
+              {{question.explanation}}
+            </div>
             <button type="button" routerLink="/question">次の世界遺産へ</button>
           </div>
         </div>

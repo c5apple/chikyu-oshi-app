@@ -20,4 +20,10 @@ export class Question {
 
     /** 画像URL */
     imageUrl?: string;
+
+    /** 国名 */
+    region: string;
+
+    /** 国旗URL */
+    flagUrl: string;
 }

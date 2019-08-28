@@ -18,7 +18,9 @@ export class QuestionService {
       cd: 'nFXQmeS4hu',
       answer: 'マチュ・ピチュの歴史保護区',
       explanation: '1983年に登録された世界複合遺産です。',
-      videoUrl: './assets/machu.webm'
+      videoUrl: './assets/machu.webm',
+      region: 'ペルー',
+      flagUrl: './assets/img/Perou.png'
     }
   ];
 
