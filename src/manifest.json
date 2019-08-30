@@ -1,11 +1,11 @@
 {
-  "name": "chikyu-oshi-app",
-  "short_name": "chikyu-oshi-app",
+  "name": "地球押しアプリ",
+  "short_name": "地球押し",
   "theme_color": "#F4F5F6",
-  "background_color": "#fafafa",
+  "background_color": "#FFFFFF",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/chikyu-oshi-app/",
+  "start_url": "/chikyu-oshi-app/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
