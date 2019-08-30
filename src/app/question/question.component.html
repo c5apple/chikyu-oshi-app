@@ -9,7 +9,7 @@
   <div class="container">
     <ng-container *ngIf="canplay">
       <ng-container *ngIf="!isStarted">
-        <button type="button" (click)="play()" [disabled]="isStarted">スタート!!</button>
+        <button type="button" (click)="play()" [disabled]="isStarted" class="animated fadeIn">スタート!!</button>
       </ng-container>
 
       <ng-container *ngIf="isStarted && !isPaused()">
