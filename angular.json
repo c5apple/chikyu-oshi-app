@@ -26,7 +26,8 @@
               "src/.htaccess",
               "src/favicon.ico",
               "src/assets",
-              "src/question"
+              "src/question",
+              "src/manifest.json"
             ],
             "styles": [
               "node_modules/milligram/dist/milligram.min.css",
@@ -59,7 +60,9 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "src/ngsw-config.json"
             }
           }
         },
@@ -93,7 +96,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.json"
             ]
           }
         },
