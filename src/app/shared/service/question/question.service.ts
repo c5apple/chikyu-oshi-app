@@ -39,6 +39,15 @@ export class QuestionService {
       videoUrl: './assets/video/grand-canyon.webm',
       region: 'アメリカ合衆国',
       flagUrl: './assets/img/United-States-of-America.png'
+    },
+    {
+      id: 5,
+      cd: 'sfE8i8ariT',
+      answer: 'ウルル-カタ・ジュタ国立公園',
+      explanation: 'エアーズ・ロック。1987年に登録された世界複合遺産です。',
+      videoUrl: './assets/video/uluru.webm',
+      region: 'オーストラリア',
+      flagUrl: './assets/img/Australia.png'
     }
   ];
 

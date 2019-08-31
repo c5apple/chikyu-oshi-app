@@ -24,4 +24,10 @@
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://games.banana-juice.com/chikyu-oshi-app/question/sfE8i8ariT</loc>
+    <lastmod>2019-08-31</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
