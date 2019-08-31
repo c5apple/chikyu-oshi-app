@@ -48,6 +48,24 @@ export class QuestionService {
       videoUrl: './assets/video/uluru.webm',
       region: 'オーストラリア',
       flagUrl: './assets/img/Australia.png'
+    },
+    {
+      id: 6,
+      cd: 'cYrRzCGrY6',
+      answer: 'ヴェネツィアとその潟',
+      explanation: '1987年に登録された世界文化遺産です。',
+      videoUrl: './assets/video/venezia.webm',
+      region: 'イタリア',
+      flagUrl: './assets/img/Italy.png'
+    },
+    {
+      id: 57,
+      cd: 'xBZ6gWhAhc',
+      answer: 'タージ・マハル',
+      explanation: '1983年に登録された世界文化遺産です。',
+      videoUrl: './assets/video/taj-mahal.webm',
+      region: 'インド',
+      flagUrl: './assets/img/India.png'
     }
   ];
 
