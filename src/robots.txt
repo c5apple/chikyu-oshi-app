@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://games.banana-juice.com/chikyu-oshi-app/sitemap.xml
