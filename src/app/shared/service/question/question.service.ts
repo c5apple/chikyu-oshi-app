@@ -78,6 +78,13 @@ export class QuestionService {
   }
 
   /**
+   * 問題数を取得する
+   */
+  public getLength(): number {
+    return this.questions.length;
+  }
+
+  /**
    * ランダムに問題を取得する
    */
   public random(): Question {

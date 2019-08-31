@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { QuestionService } from '../shared/service/question';
 
 @Component({
   selector: 'app-start',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StartComponent implements OnInit {
 
-  constructor() { }
+  /** 問題数 */
+  questionLength: number;
+
+  constructor(private questionService: QuestionService) { }
 
   ngOnInit() {
+    this.questionLength = this.questionService.getLength();
   }
 
 }
