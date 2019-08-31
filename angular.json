@@ -27,7 +27,8 @@
               "src/favicon.ico",
               "src/assets",
               "src/question",
-              "src/manifest.json"
+              "src/manifest.json",
+              "src/sitemap.xml"
             ],
             "styles": [
               "node_modules/milligram/dist/milligram.min.css",
