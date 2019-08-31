@@ -30,6 +30,15 @@ export class QuestionService {
       videoUrl: './assets/video/machu.webm',
       region: 'ペルー',
       flagUrl: './assets/img/Perou.png'
+    },
+    {
+      id: 4,
+      cd: 'tnKMnSQdxa',
+      answer: 'グランド・キャニオン国立公園',
+      explanation: '1979年に登録された世界自然遺産です。',
+      videoUrl: './assets/video/grand-canyon.webm',
+      region: 'アメリカ合衆国',
+      flagUrl: './assets/img/United-States-of-America.png'
     }
   ];
 
