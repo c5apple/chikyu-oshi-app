@@ -1,4 +1,5 @@
 import { Component, OnInit, AfterViewInit, ViewChild, ElementRef, OnDestroy } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { QuestionService, Question } from '../shared/service/question';
 
@@ -23,7 +24,8 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private questionService: QuestionService
+    private questionService: QuestionService,
+    private titleService: Title
   ) { }
 
   ngOnInit(): void {
@@ -34,6 +36,8 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
         // ランダム出題
         this.router.navigate(['/question/' + this.questionService.random().cd]);
         return;
+      } else {
+        this.titleService.setTitle(`問題${this.question.id} | 地球押し`);
       }
     });
   }
