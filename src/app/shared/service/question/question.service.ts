@@ -75,6 +75,19 @@ export class QuestionService {
       videoUrl: './assets/video/taj-mahal.webm',
       region: ['インド'],
       flagUrl: ['./assets/img/India.png']
+    },
+    {
+      id: 266,
+      cd: 'izQEb69Mgd',
+      answer: 'シドニー･オペラハウス',
+      explanation: '2007年に登録された世界文化遺産です。',
+      videoUrl: './assets/video/opera-house.webm',
+      region: [
+        'オーストラリア'
+      ],
+      flagUrl: [
+        './assets/img/Australia.png'
+      ]
     }
   ];
 
