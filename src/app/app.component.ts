@@ -16,12 +16,14 @@ export class AppComponent implements OnInit {
     private gaService: GaService,
     private swUpdate: SwUpdate
   ) {
-    this.swUpdate.available.subscribe(() => {
-      // 強制更新
-      window.location.reload(true);
-    });
-    // Check for new version
-    this.swUpdate.checkForUpdate();
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe(() => {
+        // 強制更新
+        window.location.reload(true);
+      });
+      // Check for new version
+      this.swUpdate.checkForUpdate();
+    }
   }
 
   ngOnInit() {
