@@ -28,9 +28,9 @@
           <div *ngIf="answerShowed" class="animated fadeIn column">
             <h2 class="h4">答え：{{question.answer}}</h2>
             <div class="explanation">
-              <figure>
-                <img [src]="question.flagUrl" [alt]="question.region" [title]="question.region" width="100">
-                <figcaption>{{question.region}}</figcaption>
+              <figure *ngFor="let region of question.region; let i = index">
+                <img [src]="question.flagUrl[i]" [alt]="region" [title]="region" width="100">
+                <figcaption>{{region}}</figcaption>
               </figure>
               {{question.explanation}}
             </div>

@@ -22,8 +22,8 @@ export class Question {
     imageUrl?: string;
 
     /** 国名 */
-    region: string;
+    region: string[];
 
     /** 国旗URL */
-    flagUrl: string;
+    flagUrl: string[];
 }

@@ -163,10 +163,12 @@ foreach(glob('../{styles*.css}',GLOB_BRACE) as $file){
                 <div class="animated fadeIn column">
                   <h2 class="h4">答え：<?= $question['answer'] ?></h2>
                   <div class="explanation">
+                    <?php foreach($question['region'] as $i => $region) : ?>
                     <figure>
-                      <img width="100" src="<?= $question['flagUrl'] ?>" alt="<?= $question['region'] ?>" title="<?= $question['region'] ?>">
-                      <figcaption><?= $question['region'] ?></figcaption>
+                      <img width="100" src="<?= $question['flagUrl'][$i] ?>" alt="<?= $region ?>" title="<?= $region ?>">
+                      <figcaption><?= $region ?></figcaption>
                     </figure>
+                    <?php endforeach; ?>
                     <p><?= $question['explanation'] ?></p>
                   </div><button routerlink="/question" type="button" tabindex="0">次の世界遺産へ</button>
                 </div>

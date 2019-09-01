@@ -19,8 +19,8 @@ export class QuestionService {
       answer: 'アンコール',
       explanation: 'アンコールワット遺跡群。1992年に登録された世界文化遺産です。',
       videoUrl: './assets/video/angkor.webm',
-      region: 'カンボジア',
-      flagUrl: './assets/img/Cambodia.png'
+      region: ['カンボジア'],
+      flagUrl: ['./assets/img/Cambodia.png']
     },
     {
       id: 2,
@@ -28,8 +28,8 @@ export class QuestionService {
       answer: 'マチュ・ピチュの歴史保護区',
       explanation: '1983年に登録された世界複合遺産です。',
       videoUrl: './assets/video/machu.webm',
-      region: 'ペルー',
-      flagUrl: './assets/img/Perou.png'
+      region: ['ペルー'],
+      flagUrl: ['./assets/img/Perou.png']
     },
     {
       id: 4,
@@ -37,8 +37,8 @@ export class QuestionService {
       answer: 'グランド・キャニオン国立公園',
       explanation: '1979年に登録された世界自然遺産です。',
       videoUrl: './assets/video/grand-canyon.webm',
-      region: 'アメリカ合衆国',
-      flagUrl: './assets/img/United-States-of-America.png'
+      region: ['アメリカ合衆国'],
+      flagUrl: ['./assets/img/United-States-of-America.png']
     },
     {
       id: 5,
@@ -46,8 +46,8 @@ export class QuestionService {
       answer: 'ウルル-カタ・ジュタ国立公園',
       explanation: 'エアーズ・ロック。1987年に登録された世界複合遺産です。',
       videoUrl: './assets/video/uluru.webm',
-      region: 'オーストラリア',
-      flagUrl: './assets/img/Australia.png'
+      region: ['オーストラリア'],
+      flagUrl: ['./assets/img/Australia.png']
     },
     {
       id: 6,
@@ -55,8 +55,17 @@ export class QuestionService {
       answer: 'ヴェネツィアとその潟',
       explanation: '1987年に登録された世界文化遺産です。',
       videoUrl: './assets/video/venezia.webm',
-      region: 'イタリア',
-      flagUrl: './assets/img/Italy.png'
+      region: ['イタリア'],
+      flagUrl: ['./assets/img/Italy.png']
+    },
+    {
+      id: 13,
+      cd: 'QYPBEm5Wg9',
+      answer: 'モシ・オ・トゥニャ/ヴィクトリアの滝',
+      explanation: '1989年に登録された世界自然遺産です。',
+      videoUrl: './assets/video/victoria-falls.webm',
+      region: ['ザンビア共和国', 'ジンバブエ共和国'],
+      flagUrl: ['./assets/img/Zambia.png', './assets/img/Zimbabwe.png']
     },
     {
       id: 57,
@@ -64,8 +73,8 @@ export class QuestionService {
       answer: 'タージ・マハル',
       explanation: '1983年に登録された世界文化遺産です。',
       videoUrl: './assets/video/taj-mahal.webm',
-      region: 'インド',
-      flagUrl: './assets/img/India.png'
+      region: ['インド'],
+      flagUrl: ['./assets/img/India.png']
     }
   ];
 
