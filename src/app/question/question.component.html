@@ -1,7 +1,7 @@
 <div class="animated fadeIn" *ngIf="question">
   <h2 class="h4"><span class="red">世界遺産</span>の名称をお答えください。</h2>
 
-  <video #videoPlayer (click)="toggleVideo()">
+  <video #videoPlayer (click)="toggleVideo()" poster="./assets/img/loading.png">
     <source [src]="question.videoUrl" type="video/webm" />
     地球を再生できません。友達のスマホを借りてみてね。
   </video>

@@ -45,6 +45,7 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
   ngAfterViewInit(): void {
     if (this.question) {
       this.videoPlayer.nativeElement.addEventListener('canplaythrough', () => {
+        this.videoPlayer.nativeElement.setAttribute('poster', './assets/img/start.png');
         this.canplay = true;
       });
     }
