@@ -1,7 +1,7 @@
 <div class="animated fadeIn" *ngIf="question">
   <h2 class="h4"><span class="red">世界遺産</span>の名称をお答えください。</h2>
 
-  <video #videoPlayer (click)="toggleVideo()" poster="./assets/img/loading.png">
+  <video #videoPlayer (click)="toggleVideo()" poster="./assets/img/loading.png" oncontextmenu="return false;">
     <source [src]="question.videoUrl" type="video/webm" />
     地球を再生できません。友達のスマホを借りてみてね。
   </video>
@@ -29,7 +29,8 @@
             <h2 class="h4">答え：{{question.answer}}</h2>
             <div class="explanation">
               <figure *ngFor="let region of question.region; let i = index">
-                <img [src]="question.flagUrl[i]" [alt]="region" [title]="region" width="100">
+                <img [src]="question.flagUrl[i]" [alt]="region" [title]="region" width="100"
+                  oncontextmenu="return false;">
                 <figcaption>{{region}}</figcaption>
               </figure>
               {{question.explanation}}
