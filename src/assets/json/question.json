@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "cd": "eCwADVKiYN",
+    "answer": "アンコール",
+    "explanation": "アンコールワット遺跡群。1992年に登録された世界文化遺産です。",
+    "videoUrl": "./assets/video/angkor.webm",
+    "region": "カンボジア",
+    "flagUrl": "./assets/img/Cambodia.png"
+  },
+  {
+    "id": 2,
+    "cd": "nFXQmeS4hu",
+    "answer": "マチュ・ピチュの歴史保護区",
+    "explanation": "1983年に登録された世界複合遺産です。",
+    "videoUrl": "./assets/video/machu.webm",
+    "region": "ペルー",
+    "flagUrl": "./assets/img/Perou.png"
+  },
+  {
+    "id": 4,
+    "cd": "tnKMnSQdxa",
+    "answer": "グランド・キャニオン国立公園",
+    "explanation": "1979年に登録された世界自然遺産です。",
+    "videoUrl": "./assets/video/grand-canyon.webm",
+    "region": "アメリカ合衆国",
+    "flagUrl": "./assets/img/United-States-of-America.png"
+  },
+  {
+    "id": 5,
+    "cd": "sfE8i8ariT",
+    "answer": "ウルル-カタ・ジュタ国立公園",
+    "explanation": "エアーズ・ロック。1987年に登録された世界複合遺産です。",
+    "videoUrl": "./assets/video/uluru.webm",
+    "region": "オーストラリア",
+    "flagUrl": "./assets/img/Australia.png"
+  },
+  {
+    "id": 6,
+    "cd": "cYrRzCGrY6",
+    "answer": "ヴェネツィアとその潟",
+    "explanation": "1987年に登録された世界文化遺産です。",
+    "videoUrl": "./assets/video/venezia.webm",
+    "region": "イタリア",
+    "flagUrl": "./assets/img/Italy.png"
+  },
+  {
+    "id": 57,
+    "cd": "xBZ6gWhAhc",
+    "answer": "タージ・マハル",
+    "explanation": "1983年に登録された世界文化遺産です。",
+    "videoUrl": "./assets/video/taj-mahal.webm",
+    "region": "インド",
+    "flagUrl": "./assets/img/India.png"
+  }
+]
