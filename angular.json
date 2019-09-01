@@ -29,7 +29,8 @@
               "src/question",
               "src/manifest.json",
               "src/sitemap.xml",
-              "src/robots.txt"
+              "src/robots.txt",
+              "src/amp.html"
             ],
             "styles": [
               "node_modules/milligram/dist/milligram.min.css",
