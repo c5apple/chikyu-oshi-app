@@ -114,6 +114,22 @@
     ]
   },
   {
+    "id": 33,
+    "cd": "RVmkab9K7s",
+    "answer": "古代都市チチェン-イッツァ",
+    "explanation": "1988年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/chichen-Itza.webm",
+      "mp4": "./assets/video/chichen-Itza.mp4"
+    },
+    "region": [
+      "メキシコ合衆国"
+    ],
+    "flagUrl": [
+      "./assets/img/Mexico.png"
+    ]
+  },
+  {
     "id": 57,
     "cd": "xBZ6gWhAhc",
     "answer": "タージ・マハル",
