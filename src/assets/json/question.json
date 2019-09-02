@@ -98,6 +98,22 @@
     ]
   },
   {
+    "id": 22,
+    "cd": "rrQ6MpAr5U",
+    "answer": "モン-サン-ミシェルとその湾",
+    "explanation": "1979年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/mont-saint-michel.webm",
+      "mp4": "./assets/video/mont-saint-michel.mp4"
+    },
+    "region": [
+      "フランス共和国"
+    ],
+    "flagUrl": [
+      "./assets/img/France.png"
+    ]
+  },
+  {
     "id": 57,
     "cd": "xBZ6gWhAhc",
     "answer": "タージ・マハル",
