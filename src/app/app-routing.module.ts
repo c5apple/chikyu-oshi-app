@@ -5,6 +5,7 @@ import { QuestionComponent } from './question/question.component';
 
 const routes: Routes = [
   { path: '', component: StartComponent },
+  { path: 'home', component: StartComponent },
   { path: 'question', component: QuestionComponent },
   { path: 'question/:cd', component: QuestionComponent },
   { path: '*', component: StartComponent }
