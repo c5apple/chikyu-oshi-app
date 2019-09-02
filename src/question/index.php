@@ -70,7 +70,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="TBS東大王で生まれた「宇宙から徐々にズームする映像から世界遺産を答えるクイズ」地球押しを体験できます。ぜひ遊んでみてください。問題<?= $question['id'] ?>">
-  <meta property="og:url" content="https://games.banana-juice.com/chikyu-oshi-app/">
+  <meta property="og:url" content="<?= 'https://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>">
   <meta property="og:title" content="問題<?= $question['id'] ?>：地球押しアプリ">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://games.banana-juice.com/chikyu-oshi-app/assets/img/ogp.png">
