@@ -12,6 +12,8 @@ ExpiresByType image/x-icon "access plus 1 months"
 ExpiresByType application/x-javascript "access plus 1 months"
 ExpiresByType application/javascript "access plus 1 months"
 ExpiresByType text/css "access plus 1 months"
+ExpiresByType video/mp4 "access plus 1 months"
+ExpiresByType video/webm "access plus 1 months"
 </IfModule>
 
 FileETag MTime Size  

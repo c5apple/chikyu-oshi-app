@@ -1,3 +1,5 @@
+import { VideoUrl } from './video-url';
+
 /**
  * 問題
  */
@@ -16,7 +18,7 @@ export class Question {
     explanation: string;
 
     /** 動画URL */
-    videoUrl: string;
+    videoUrl: VideoUrl;
 
     /** 画像URL */
     imageUrl?: string;
