@@ -11,6 +11,8 @@ export class QuestionService {
 
   constructor() { }
 
+  private _questions: Question[] = [];
+
   /** 問題集 */
   private questions: Question[] = [
     {
@@ -166,7 +168,12 @@ export class QuestionService {
    * ランダムに問題を取得する
    */
   public random(): Question {
-    const i = Math.floor(Math.random() * Math.floor(this.questions.length));
-    return this.questions[i];
+    if (this._questions.length === 0) {
+      this.questions.forEach(q => this._questions.push(q));
+    }
+    const i = Math.floor(Math.random() * Math.floor(this._questions.length));
+    const q = this._questions[i];
+    this._questions.splice(i, 1);
+    return q;
   }
 }
