@@ -130,6 +130,22 @@
     ]
   },
   {
+    "id": 35,
+    "cd": "sCUtUeCuKe",
+    "answer": "ガラパゴス諸島",
+    "explanation": "1978年、2001年に登録された世界自然遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/galapagos.webm",
+      "mp4": "./assets/video/galapagos.mp4"
+    },
+    "region": [
+      "エクアドル共和国"
+    ],
+    "flagUrl": [
+      "./assets/img/Ecuador.png"
+    ]
+  },
+  {
     "id": 57,
     "cd": "xBZ6gWhAhc",
     "answer": "タージ・マハル",
