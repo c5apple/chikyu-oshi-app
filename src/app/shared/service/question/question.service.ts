@@ -136,6 +136,22 @@ export class QuestionService {
       ]
     },
     {
+      id: 36,
+      cd: 'XpcxNyYjL8',
+      answer: 'ドゥブロヴニク旧市街',
+      explanation: '1979年、1994年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/dubrovnik.webm',
+        mp4: './assets/video/dubrovnik.mp4'
+      },
+      region: [
+        'クロアチア共和国'
+      ],
+      flagUrl: [
+        './assets/img/Croatia.png'
+      ]
+    },
+    {
       id: 57,
       cd: 'xBZ6gWhAhc',
       answer: 'タージ・マハル',
