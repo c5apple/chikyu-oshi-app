@@ -178,6 +178,22 @@
     ]
   },
   {
+    "id": 175,
+    "cd": "tpDZDuKeEd",
+    "answer": "ロンドン塔",
+    "explanation": "1988年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/tower-of-london.webm",
+      "mp4": "./assets/video/tower-of-london.mp4"
+    },
+    "region": [
+      "英国（グレートブリテン及び北アイルランド連合王国）"
+    ],
+    "flagUrl": [
+      "./assets/img/United-Kingdom.png"
+    ]
+  },
+  {
     "id": 266,
     "cd": "izQEb69Mgd",
     "answer": "シドニー･オペラハウス",

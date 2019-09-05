@@ -158,10 +158,22 @@ export class QuestionService {
       explanation: '1983年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/taj-mahal.webm',
-        mp4: './assets/video/taj-mahal.mp4',
+        mp4: './assets/video/taj-mahal.mp4'
       },
       region: ['インド'],
       flagUrl: ['./assets/img/India.png']
+    },
+    {
+      id: 175,
+      cd: 'tpDZDuKeEd',
+      answer: 'ロンドン塔',
+      explanation: '1988年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/tower-of-london.webm',
+        mp4: './assets/video/tower-of-london.mp4'
+      },
+      region: ['英国（グレートブリテン及び北アイルランド連合王国）'],
+      flagUrl: ['./assets/img/United-Kingdom.png']
     },
     {
       id: 266,
