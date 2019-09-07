@@ -210,6 +210,22 @@
     ]
   },
   {
+    "id": 39,
+    "cd": "UrpDx7Pr5P",
+    "answer": "バチカン市国",
+    "explanation": "1984年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/vatican.webm",
+      "mp4": "./assets/video/vatican.mp4"
+    },
+    "region": [
+      "バチカン市国"
+    ],
+    "flagUrl": [
+      "./assets/img/Vatican-City.png"
+    ]
+  },
+  {
     "id": 57,
     "cd": "xBZ6gWhAhc",
     "answer": "タージ・マハル",
