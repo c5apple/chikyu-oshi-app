@@ -6,6 +6,12 @@ video {
   font-weight: bold;
   color: #e34438;
 }
+.mark {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  left: calc(50% - 50px/2);
+}
 .explanation {
   margin-bottom: 1.0rem;
   padding: 1.5rem;

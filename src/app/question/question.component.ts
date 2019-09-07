@@ -18,6 +18,11 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
   canplay = false;
   answerShowed = false;
 
+  /** プレイヤーの解答 */
+  answer = '';
+  /** プレイヤーが正解したか */
+  isCorrect = false;
+
   /** 問題 */
   question: Question;
 
@@ -80,6 +85,10 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   showAnswer(): void {
+    // 答え合わせ
+    if (this.question.answer === this.answer) {
+      this.isCorrect = true;
+    }
     this.answerShowed = true;
   }
 }

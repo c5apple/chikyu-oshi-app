@@ -20,7 +20,14 @@
       <div *ngIf="isStarted && isPaused()" class="animated bounceIn">
         <div class="row">
           <div class="column column-80 column-offset-10">
-            <input type="text" [disabled]="!isPaused() || answerShowed" placeholder="出た！地球押し！答えを...どうぞ！" />
+            <input type="text" [(ngModel)]="answer" [disabled]="!isPaused() || answerShowed"
+              placeholder="出た！地球押し！答えを...どうぞ！" />
+            <ng-container *ngIf="answerShowed">
+              <img src="./assets/img/mark_maru.png" width="50" height="50" class="mark animated jello"
+                *ngIf="isCorrect">
+              <img src="./assets/img/mark_batsu.png" width="50" height="50" class="mark animated jello"
+                *ngIf="!isCorrect">
+            </ng-container>
             <button type="button" (click)="showAnswer()" *ngIf="!answerShowed">答え合わせする</button>
           </div>
 
