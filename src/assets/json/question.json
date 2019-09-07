@@ -114,6 +114,22 @@
     ]
   },
   {
+    "id": 25,
+    "cd": "jMEx6F8Yix",
+    "answer": "ナスカとパルパの地上絵",
+    "explanation": "1994年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/nazca.webm",
+      "mp4": "./assets/video/nazca.mp4"
+    },
+    "region": [
+      "ペルー"
+    ],
+    "flagUrl": [
+      "./assets/img/Perou.png"
+    ]
+  },
+  {
     "id": 33,
     "cd": "RVmkab9K7s",
     "answer": "古代都市チチェン-イッツァ",
