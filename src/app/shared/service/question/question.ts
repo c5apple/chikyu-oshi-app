@@ -14,6 +14,9 @@ export class Question {
     /** 解答 */
     answer: string;
 
+    /** 解答判定用 */
+    answers: string[];
+
     /** 解説 */
     explanation: string;
 
