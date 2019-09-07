@@ -84,6 +84,8 @@
   <meta name="twitter:site" content="@c5banana_juice">
   <meta property="fb:app_id" content="353945695199349">
   <meta name="theme-color" content="#F4F5F6">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" type="image/png" href="./assets/icons/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
   <link rel="manifest" href="./manifest.json">
   <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.min.css">
