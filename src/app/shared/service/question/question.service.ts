@@ -200,6 +200,18 @@ export class QuestionService {
       flagUrl: ['./assets/img/India.png']
     },
     {
+      id: 88,
+      cd: 'uhfGnaSKJw',
+      answer: '富士山−信仰の対象と芸術の源泉',
+      explanation: '2013年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/fujisan.webm',
+        mp4: './assets/video/fujisan.mp4'
+      },
+      region: ['日本国'],
+      flagUrl: ['./assets/img/Japan.png']
+    },
+    {
       id: 175,
       cd: 'tpDZDuKeEd',
       answer: 'ロンドン塔',
