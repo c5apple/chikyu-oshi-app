@@ -130,6 +130,38 @@
     ]
   },
   {
+    "id": 25,
+    "cd": "Y5P94YhUCT",
+    "answer": "グレート・バリア・リーフ",
+    "explanation": "1981年に登録された世界自然遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/great-barrier-reef.webm",
+      "mp4": "./assets/video/great-barrier-reef.mp4"
+    },
+    "region": [
+      "オーストラリア"
+    ],
+    "flagUrl": [
+      "./assets/img/Australia.png"
+    ]
+  },
+  {
+    "id": 30,
+    "cd": "fp7JV7NTzF",
+    "answer": "ギョレメ国立公園とカッパドキアの岩窟群",
+    "explanation": "1985年に登録された世界複合遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/cappadocia.webm",
+      "mp4": "./assets/video/cappadocia.mp4"
+    },
+    "region": [
+      "トルコ共和国"
+    ],
+    "flagUrl": [
+      "./assets/img/Turkey.png"
+    ]
+  },
+  {
     "id": 33,
     "cd": "RVmkab9K7s",
     "answer": "古代都市チチェン-イッツァ",
