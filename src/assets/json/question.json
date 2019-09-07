@@ -226,6 +226,31 @@
     ]
   },
   {
+    "id": 44,
+    "cd": "z8QGVmH5sj",
+    "answer": "ラサのポタラ宮歴史地区",
+    "answers": [
+      "ラサ",
+      "らさ",
+      "ポタラ",
+      "ぽたら",
+      "ポタラ宮",
+      "ぽたらきゅう",
+      "ポタラ宮歴史地区"
+    ],
+    "explanation": "1994年、2000年、2001年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/pho-brang-potala.webm",
+      "mp4": "./assets/video/pho-brang-potala.mp4"
+    },
+    "region": [
+      "中華人民共和国"
+    ],
+    "flagUrl": [
+      "./assets/img/China.png"
+    ]
+  },
+  {
     "id": 57,
     "cd": "xBZ6gWhAhc",
     "answer": "タージ・マハル",
