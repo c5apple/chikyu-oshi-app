@@ -14,9 +14,10 @@
     }
   }
   if ($question == NULL) {
-    // $url = 'http://' . (string) $_SERVER['SERVER_NAME'] . $url;
-    header('HTTP/1.1 404 Not Found');
-    // header('Location: ' . $url);
+    $rand_key = array_rand($questions, 1);
+    $question = $questions[$rand_key];
+    $url = 'http://' . (string) $_SERVER['SERVER_NAME'] . '/chikyu-oshi-app/question/' .$question['cd'];
+    header('Location: ' . $url);
     exit;
   }
 
