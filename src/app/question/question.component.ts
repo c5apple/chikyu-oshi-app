@@ -86,7 +86,7 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
 
   showAnswer(): void {
     // 答え合わせ
-    if ([this.question.answer].concat(this.question.answers).indexOf(this.answer) !== -1) {
+    if (this.answer && [this.question.answer].concat(this.question.answers).indexOf(this.answer.trim()) !== -1) {
       this.isCorrect = true;
     }
     this.answerShowed = true;
