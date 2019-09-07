@@ -33,5 +33,12 @@ export class AppComponent implements OnInit {
       // tracking
       this.gaService.sendPageView(location.pathname);
     });
+
+    // ホーム画面へ追加イベント
+    window.addEventListener('beforeinstallprompt', event => {
+      event['userChoice'].then(choiceResult => {
+        this.gaService.sendEvent('install', 'install', 'click', choiceResult.outcome);
+      })
+    });
   }
 }
