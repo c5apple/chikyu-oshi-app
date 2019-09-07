@@ -232,12 +232,20 @@ export class QuestionService {
         webm: './assets/video/opera-house.webm',
         mp4: './assets/video/opera-house.mp4'
       },
-      region: [
-        'オーストラリア'
-      ],
-      flagUrl: [
-        './assets/img/Australia.png'
-      ]
+      region: ['オーストラリア'],
+      flagUrl: ['./assets/img/Australia.png']
+    },
+    {
+      id: 375,
+      cd: 'QUuyTfN3X9',
+      answer: 'オランジュのローマ劇場とその周辺及び“凱旋門”',
+      explanation: '1981年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/triumphal-arch.webm',
+        mp4: './assets/video/triumphal-arch.mp4'
+      },
+      region: ['フランス共和国'],
+      flagUrl: ['./assets/img/France.png']
     }
   ];
 
