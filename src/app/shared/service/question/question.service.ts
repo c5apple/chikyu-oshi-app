@@ -257,6 +257,21 @@ export class QuestionService {
       flagUrl: ['./assets/img/China.png']
     },
     {
+      id: 50,
+      cd: 'JYVJKVxhzz',
+      answer: 'ハワイ火山国立公園',
+      answers: [
+        'ハワイ火山', 'はわいかざん', 'キラウエア', 'きらうえあ', 'キラウエア火山', 'きらうえあかざん'
+      ],
+      explanation: 'キラウエア火山。1987年に登録された世界自然遺産です。',
+      videoUrl: {
+        webm: './assets/video/kilauea.webm',
+        mp4: './assets/video/kilauea.mp4'
+      },
+      region: ['アメリカ合衆国'],
+      flagUrl: ['./assets/img/United-States-of-America.png']
+    },
+    {
       id: 57,
       cd: 'xBZ6gWhAhc',
       answer: 'タージ・マハル',
@@ -270,6 +285,21 @@ export class QuestionService {
       },
       region: ['インド'],
       flagUrl: ['./assets/img/India.png']
+    },
+    {
+      id: 61,
+      cd: 'bmXzMBfNC4',
+      answer: '南ラグーンのロックアイランド群',
+      answers: [
+        '南ラグーン', 'みなみらぐーん', 'ロックアイランド', 'ろっくあいらんど', 'ロックアイランド群', 'ろっくあいらんどぐん'
+      ],
+      explanation: '2012年に登録された世界複合遺産です。',
+      videoUrl: {
+        webm: './assets/video/rock-islands.webm',
+        mp4: './assets/video/rock-islands.mp4'
+      },
+      region: ['パラオ共和国'],
+      flagUrl: ['./assets/img/Palau.png']
     },
     {
       id: 88,
