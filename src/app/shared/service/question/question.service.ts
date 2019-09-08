@@ -302,6 +302,21 @@ export class QuestionService {
       flagUrl: ['./assets/img/Palau.png']
     },
     {
+      id: 68,
+      cd: '9DwZCiYxZG',
+      answer: 'イチャン・カラ',
+      answers: [
+        'イチャンカラ', 'いちゃんから', 'いちゃん・から'
+      ],
+      explanation: '1990年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/ichan-qala.webm',
+        mp4: './assets/video/ichan-qala.mp4'
+      },
+      region: ['ウズベキスタン共和国'],
+      flagUrl: ['./assets/img/Uzbekistan.png']
+    },
+    {
       id: 88,
       cd: 'uhfGnaSKJw',
       answer: '富士山−信仰の対象と芸術の源泉',
