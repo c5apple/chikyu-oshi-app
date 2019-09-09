@@ -13,7 +13,7 @@
     <div class="cover-container" *ngIf="question.videoUrl.youtube">
       <youtube-player [videoId]="question.videoUrl.youtube" [playerVars]="playerVars" (ready)="savePlayer($event)"
         (change)="onStateChange($event)"></youtube-player>
-      <div class="cover" *ngIf="isStarted && isPaused()"></div>
+      <div class="cover" (click)="toggleVideo()"></div>
     </div>
     <p *ngIf="!question.videoUrl.youtube">地球を再生できません。友達のスマホを借りてみてね。</p>
   </ng-container>
