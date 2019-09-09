@@ -184,7 +184,7 @@ export class QuestionService {
       cd: 'RVmkab9K7s',
       answer: '古代都市チチェン-イッツァ',
       answers: [
-        'チチェン・イッツァ', 'ちちぇんいっつぁ'
+        'チチェン・イッツァ', 'ちちぇんいっつぁ', 'チチェン・イツァ', 'ちちぇん・いつぁ'
       ],
       explanation: '1988年に登録された世界文化遺産です。',
       videoUrl: {
