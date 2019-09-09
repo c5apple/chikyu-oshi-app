@@ -324,6 +324,22 @@ export class QuestionService {
       flagUrl: ['./assets/img/Uzbekistan.png']
     },
     {
+      id: 72,
+      cd: 'Yty4DsYifG',
+      answer: 'フェス旧市街',
+      answers: [
+        'フェス', 'ふぇす', 'フェズ', 'ふぇず'
+      ],
+      explanation: '1981年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/fez.webm',
+        mp4: './assets/video/fez.mp4',
+        youtube: '9-53PjRskd8'
+      },
+      region: ['モロッコ王国'],
+      flagUrl: ['./assets/img/Morocco.png']
+    },
+    {
       id: 88,
       cd: 'uhfGnaSKJw',
       answer: '富士山−信仰の対象と芸術の源泉',

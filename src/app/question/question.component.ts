@@ -60,6 +60,12 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
   onStateChange(event) {
     if (YT.PlayerState.PLAYING === event.data) {
       this.isStarted = true;
+    } else if (YT.PlayerState.ENDED === event.data) {
+      // 最後の画面で一時停止
+      // const duration = Number(this.player.getDuration() - 0.1);
+      // this.playerVars.start = duration;
+      // this.player.playVideo();
+      // this.player.pauseVideo();
     }
   }
 
