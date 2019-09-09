@@ -41,7 +41,8 @@ export class QuestionService {
       explanation: '1983年に登録された世界複合遺産です。',
       videoUrl: {
         webm: './assets/video/machu.webm',
-        mp4: './assets/video/machu.mp4'
+        mp4: './assets/video/machu.mp4',
+        youtube: 'Ld6FaNmEsV8'
       },
       region: ['ペルー'],
       flagUrl: ['./assets/img/Perou.png']
@@ -56,7 +57,8 @@ export class QuestionService {
       explanation: '1979年に登録された世界自然遺産です。',
       videoUrl: {
         webm: './assets/video/grand-canyon.webm',
-        mp4: './assets/video/grand-canyon.mp4'
+        mp4: './assets/video/grand-canyon.mp4',
+        youtube: 'Xsuq5oED11c'
       },
       region: ['アメリカ合衆国'],
       flagUrl: ['./assets/img/United-States-of-America.png']
@@ -71,7 +73,8 @@ export class QuestionService {
       explanation: 'エアーズ・ロック。1987年に登録された世界複合遺産です。',
       videoUrl: {
         webm: './assets/video/uluru.webm',
-        mp4: './assets/video/uluru.mp4'
+        mp4: './assets/video/uluru.mp4',
+        youtube: '-kihhVdhNjM'
       },
       region: ['オーストラリア'],
       flagUrl: ['./assets/img/Australia.png']
@@ -86,7 +89,8 @@ export class QuestionService {
       explanation: '1987年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/venezia.webm',
-        mp4: './assets/video/venezia.mp4'
+        mp4: './assets/video/venezia.mp4',
+        youtube: 'xBhskAPOLUk'
       },
       region: ['イタリア'],
       flagUrl: ['./assets/img/Italy.png']
@@ -102,6 +106,7 @@ export class QuestionService {
       videoUrl: {
         webm: './assets/video/victoria-falls.webm',
         mp4: './assets/video/victoria-falls.mp4',
+        youtube: 'RXw-5qosgZc'
       },
       region: ['ザンビア共和国', 'ジンバブエ共和国'],
       flagUrl: ['./assets/img/Zambia.png', './assets/img/Zimbabwe.png']
@@ -116,7 +121,8 @@ export class QuestionService {
       explanation: '1979年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/mont-saint-michel.webm',
-        mp4: './assets/video/mont-saint-michel.mp4'
+        mp4: './assets/video/mont-saint-michel.mp4',
+        youtube: 'BNMjVnoos-4'
       },
       region: [
         'フランス共和国'
@@ -135,13 +141,14 @@ export class QuestionService {
       explanation: '1994年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/nazca.webm',
-        mp4: './assets/video/nazca.mp4'
+        mp4: './assets/video/nazca.mp4',
+        youtube: 'DRiznIuJKVk'
       },
       region: ['ペルー'],
       flagUrl: ['./assets/img/Perou.png']
     },
     {
-      id: 25,
+      id: 26,
       cd: 'Y5P94YhUCT',
       answer: 'グレート・バリア・リーフ',
       answers: [
@@ -150,7 +157,8 @@ export class QuestionService {
       explanation: '1981年に登録された世界自然遺産です。',
       videoUrl: {
         webm: './assets/video/great-barrier-reef.webm',
-        mp4: './assets/video/great-barrier-reef.mp4'
+        mp4: './assets/video/great-barrier-reef.mp4',
+        youtube: 'K9SIhWxuJ1I'
       },
       region: ['オーストラリア'],
       flagUrl: ['./assets/img/Australia.png']
@@ -165,7 +173,8 @@ export class QuestionService {
       explanation: '1985年に登録された世界複合遺産です。',
       videoUrl: {
         webm: './assets/video/cappadocia.webm',
-        mp4: './assets/video/cappadocia.mp4'
+        mp4: './assets/video/cappadocia.mp4',
+        youtube: '255OZ9OdfEA'
       },
       region: ['トルコ共和国'],
       flagUrl: ['./assets/img/Turkey.png']
@@ -180,14 +189,11 @@ export class QuestionService {
       explanation: '1988年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/chichen-Itza.webm',
-        mp4: './assets/video/chichen-Itza.mp4'
+        mp4: './assets/video/chichen-Itza.mp4',
+        youtube: '9rgIzZS5WFQ'
       },
-      region: [
-        'メキシコ合衆国'
-      ],
-      flagUrl: [
-        './assets/img/Mexico.png'
-      ]
+      region: ['メキシコ合衆国'],
+      flagUrl: ['./assets/img/Mexico.png']
     },
     {
       id: 35,
@@ -199,14 +205,11 @@ export class QuestionService {
       explanation: '1978年、2001年に登録された世界自然遺産です。',
       videoUrl: {
         webm: './assets/video/galapagos.webm',
-        mp4: './assets/video/galapagos.mp4'
+        mp4: './assets/video/galapagos.mp4',
+        youtube: 'jdMVfy-SQaI'
       },
-      region: [
-        'エクアドル共和国'
-      ],
-      flagUrl: [
-        './assets/img/Ecuador.png'
-      ]
+      region: ['エクアドル共和国'],
+      flagUrl: ['./assets/img/Ecuador.png']
     },
     {
       id: 36,
@@ -218,14 +221,11 @@ export class QuestionService {
       explanation: '1979年、1994年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/dubrovnik.webm',
-        mp4: './assets/video/dubrovnik.mp4'
+        mp4: './assets/video/dubrovnik.mp4',
+        youtube: 'DkNsupD2HD0'
       },
-      region: [
-        'クロアチア共和国'
-      ],
-      flagUrl: [
-        './assets/img/Croatia.png'
-      ]
+      region: ['クロアチア共和国'],
+      flagUrl: ['./assets/img/Croatia.png']
     },
     {
       id: 39,
@@ -237,7 +237,8 @@ export class QuestionService {
       explanation: '1984年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/vatican.webm',
-        mp4: './assets/video/vatican.mp4'
+        mp4: './assets/video/vatican.mp4',
+        youtube: 'uFoaO0Vira0'
       },
       region: ['バチカン市国'],
       flagUrl: ['./assets/img/Vatican-City.png']
@@ -252,7 +253,8 @@ export class QuestionService {
       explanation: '1994年、2000年、2001年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/pho-brang-potala.webm',
-        mp4: './assets/video/pho-brang-potala.mp4'
+        mp4: './assets/video/pho-brang-potala.mp4',
+        youtube: '4YyV_yD1vyE'
       },
       region: ['中華人民共和国'],
       flagUrl: ['./assets/img/China.png']
@@ -267,7 +269,8 @@ export class QuestionService {
       explanation: 'キラウエア火山。1987年に登録された世界自然遺産です。',
       videoUrl: {
         webm: './assets/video/kilauea.webm',
-        mp4: './assets/video/kilauea.mp4'
+        mp4: './assets/video/kilauea.mp4',
+        youtube: 'JOs6YPv63Yc'
       },
       region: ['アメリカ合衆国'],
       flagUrl: ['./assets/img/United-States-of-America.png']
@@ -282,7 +285,8 @@ export class QuestionService {
       explanation: '1983年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/taj-mahal.webm',
-        mp4: './assets/video/taj-mahal.mp4'
+        mp4: './assets/video/taj-mahal.mp4',
+        youtube: 'OTOTbvDSFRs'
       },
       region: ['インド'],
       flagUrl: ['./assets/img/India.png']
@@ -297,7 +301,8 @@ export class QuestionService {
       explanation: '2012年に登録された世界複合遺産です。',
       videoUrl: {
         webm: './assets/video/rock-islands.webm',
-        mp4: './assets/video/rock-islands.mp4'
+        mp4: './assets/video/rock-islands.mp4',
+        youtube: '2RPZbh7pnGM'
       },
       region: ['パラオ共和国'],
       flagUrl: ['./assets/img/Palau.png']
@@ -312,7 +317,8 @@ export class QuestionService {
       explanation: '1990年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/ichan-qala.webm',
-        mp4: './assets/video/ichan-qala.mp4'
+        mp4: './assets/video/ichan-qala.mp4',
+        youtube: 'y71zkbWDGX0'
       },
       region: ['ウズベキスタン共和国'],
       flagUrl: ['./assets/img/Uzbekistan.png']
@@ -327,7 +333,8 @@ export class QuestionService {
       explanation: '2013年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/fujisan.webm',
-        mp4: './assets/video/fujisan.mp4'
+        mp4: './assets/video/fujisan.mp4',
+        youtube: 'XLHSbhJENU4'
       },
       region: ['日本国'],
       flagUrl: ['./assets/img/Japan.png']
@@ -342,7 +349,8 @@ export class QuestionService {
       explanation: '1988年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/tower-of-london.webm',
-        mp4: './assets/video/tower-of-london.mp4'
+        mp4: './assets/video/tower-of-london.mp4',
+        youtube: '7PtTWz8eWJg'
       },
       region: ['英国（グレートブリテン及び北アイルランド連合王国）'],
       flagUrl: ['./assets/img/United-Kingdom.png']
@@ -357,7 +365,8 @@ export class QuestionService {
       explanation: '2007年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/opera-house.webm',
-        mp4: './assets/video/opera-house.mp4'
+        mp4: './assets/video/opera-house.mp4',
+        youtube: '6Rtt3yDGTPE'
       },
       region: ['オーストラリア'],
       flagUrl: ['./assets/img/Australia.png']
@@ -372,7 +381,8 @@ export class QuestionService {
       explanation: '1981年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/triumphal-arch.webm',
-        mp4: './assets/video/triumphal-arch.mp4'
+        mp4: './assets/video/triumphal-arch.mp4',
+        youtube: 'yQ7krS_ZWFg'
       },
       region: ['フランス共和国'],
       flagUrl: ['./assets/img/France.png']
