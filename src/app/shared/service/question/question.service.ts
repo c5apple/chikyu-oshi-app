@@ -25,7 +25,8 @@ export class QuestionService {
       explanation: 'アンコールワット遺跡群。1992年に登録された世界文化遺産です。',
       videoUrl: {
         webm: './assets/video/angkor.webm',
-        mp4: './assets/video/angkor.mp4'
+        mp4: './assets/video/angkor.mp4',
+        youtube: 'SdOfeT5qkEY'
       },
       region: ['カンボジア'],
       flagUrl: ['./assets/img/Cambodia.png']

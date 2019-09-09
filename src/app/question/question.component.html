@@ -1,11 +1,22 @@
 <div class="animated fadeIn" *ngIf="question">
   <h2 class="h4"><span class="red">世界遺産</span>の名称をお答えください。</h2>
 
-  <video #videoPlayer (click)="toggleVideo()" poster="./assets/img/loading.png" oncontextmenu="return false;">
-    <source [src]="question.videoUrl.mp4" type="video/mp4" />
-    <source [src]="question.videoUrl.webm" type="video/webm" />
-    地球を再生できません。友達のスマホを借りてみてね。
-  </video>
+  <ng-container *ngIf="!isIOS">
+    <video #videoPlayer (click)="toggleVideo()" poster="./assets/img/loading.png" oncontextmenu="return false;">
+      <source [src]="question.videoUrl.mp4" type="video/mp4" />
+      <source [src]="question.videoUrl.webm" type="video/webm" />
+      地球を再生できません。友達のスマホを借りてみてね。
+    </video>
+  </ng-container>
+
+  <ng-container *ngIf="isIOS">
+    <div class="cover-container" *ngIf="question.videoUrl.youtube">
+      <youtube-player [videoId]="question.videoUrl.youtube" [playerVars]="playerVars" (ready)="savePlayer($event)"
+        (change)="onStateChange($event)"></youtube-player>
+      <div class="cover" *ngIf="isStarted && isPaused()"></div>
+    </div>
+    <p *ngIf="!question.videoUrl.youtube">地球を再生できません。友達のスマホを借りてみてね。</p>
+  </ng-container>
 
   <div class="container">
     <ng-container *ngIf="canplay">

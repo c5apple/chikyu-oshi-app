@@ -5,6 +5,7 @@ import { QuestionComponent } from './question.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { MyAdsenseModule } from '../shared/component/my-adsense/my-adsense.module';
 import { ShareModule } from '../shared/component/share/share.module';
+import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
 
 @NgModule({
   declarations: [QuestionComponent],
@@ -13,7 +14,8 @@ import { ShareModule } from '../shared/component/share/share.module';
     FormsModule,
     AppRoutingModule,
     MyAdsenseModule,
-    ShareModule
+    ShareModule,
+    NgxYoutubePlayerModule.forRoot()
   ],
   exports: [
     QuestionComponent

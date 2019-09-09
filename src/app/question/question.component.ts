@@ -18,6 +18,20 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
   canplay = false;
   answerShowed = false;
 
+  isIOS = false;
+
+  player: YT.Player;
+  playerVars: YT.PlayerVars = {
+    rel: 0,
+    modestbranding: 1,
+    showinfo: 0,
+    fs: 0,
+    controls: 0,
+    color: 'white',
+    loop: 0,
+    playsinline: 1
+  };
+
   /** プレイヤーの解答 */
   answer = '';
   /** プレイヤーが正解したか */
@@ -31,7 +45,23 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
     private router: Router,
     private questionService: QuestionService,
     private titleService: Title
-  ) { }
+  ) {
+    const ua = navigator.userAgent;
+    if (ua.indexOf('iPhone') > 0) {
+      this.isIOS = true;
+    }
+  }
+
+  savePlayer(player) {
+    this.player = player;
+    this.canplay = true;
+  }
+
+  onStateChange(event) {
+    if (YT.PlayerState.PLAYING === event.data) {
+      this.isStarted = true;
+    }
+  }
 
   ngOnInit(): void {
     this.sub = this.route.params.subscribe((params: { cd: string }) => {
@@ -48,7 +78,7 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-    if (this.question) {
+    if (this.question && this.videoPlayer) {
       this.videoPlayer.nativeElement.addEventListener('canplaythrough', () => {
         this.videoPlayer.nativeElement.setAttribute('poster', './assets/img/start.png');
         this.canplay = true;
@@ -72,16 +102,28 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   play(): void {
-    this.videoPlayer.nativeElement.play();
+    if (this.isIOS) {
+      this.player.playVideo();
+    } else {
+      this.videoPlayer.nativeElement.play();
+    }
     this.isStarted = true;
   }
 
   pause(): void {
-    this.videoPlayer.nativeElement.pause();
+    if (this.isIOS) {
+      this.player.pauseVideo();
+    } else {
+      this.videoPlayer.nativeElement.pause();
+    }
   }
 
   isPaused(): boolean {
-    return this.videoPlayer.nativeElement.paused;
+    if (this.isIOS) {
+      return this.player.getPlayerState() === 2;
+    } else {
+      return this.videoPlayer.nativeElement.paused;
+    }
   }
 
   showAnswer(): void {
