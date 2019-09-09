@@ -120,7 +120,8 @@ export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
 
   isPaused(): boolean {
     if (this.isIOS) {
-      return this.player.getPlayerState() === 2;
+      return this.player.getPlayerState() === YT.PlayerState.PAUSED ||
+        this.player.getPlayerState() === YT.PlayerState.ENDED;
     } else {
       return this.videoPlayer.nativeElement.paused;
     }
