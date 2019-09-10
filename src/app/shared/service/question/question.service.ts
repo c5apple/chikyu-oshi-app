@@ -340,6 +340,22 @@ export class QuestionService {
       flagUrl: ['./assets/img/Morocco.png']
     },
     {
+      id: 84,
+      cd: 'WsHy7BAefW',
+      answer: 'サマルカンド-文化交差路',
+      answers: [
+        'サマルカンド', 'さまるかんど', 'サマルカンド文化交差路'
+      ],
+      explanation: '2001年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/samarkand.webm',
+        mp4: './assets/video/samarkand.mp4',
+        youtube: '89kr65HMzPc'
+      },
+      region: ['ウズベキスタン共和国'],
+      flagUrl: ['./assets/img/Uzbekistan.png']
+    },
+    {
       id: 88,
       cd: 'uhfGnaSKJw',
       answer: '富士山−信仰の対象と芸術の源泉',
@@ -354,6 +370,22 @@ export class QuestionService {
       },
       region: ['日本国'],
       flagUrl: ['./assets/img/Japan.png']
+    },
+    {
+      id: 93,
+      cd: 'u5GnXwVuFa',
+      answer: 'アマルフィ海岸',
+      answers: [
+        'アマルフィ', 'あまるふぃ', 'アマルフィー', 'あまるふぃー'
+      ],
+      explanation: '1997年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/amalfitana.webm',
+        mp4: './assets/video/amalfitana.mp4',
+        youtube: 'xlLjaYd2GuI'
+      },
+      region: ['イタリア'],
+      flagUrl: ['./assets/img/Italy.png']
     },
     {
       id: 175,

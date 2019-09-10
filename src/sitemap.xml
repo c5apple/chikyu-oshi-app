@@ -127,8 +127,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://games.banana-juice.com/chikyu-oshi-app/question/WsHy7BAefW</loc>
+    <lastmod>2019-09-11</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://games.banana-juice.com/chikyu-oshi-app/question/JYVJKVxhzz</loc>
     <lastmod>2019-09-08</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games.banana-juice.com/chikyu-oshi-app/question/u5GnXwVuFa</loc>
+    <lastmod>2019-09-11</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
