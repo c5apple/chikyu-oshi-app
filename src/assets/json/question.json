@@ -420,6 +420,59 @@
     ]
   },
   {
+    "id": 101,
+    "cd": "PFYajksb8B",
+    "answer": "アテネのアクロポリス",
+    "answers": [
+      "アクロポリス",
+      "あくろぽりす",
+      "パルテノン神殿",
+      "パルテノン",
+      "ぱるてのん"
+    ],
+    "explanation": "パルテノン神殿。1987年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/acropolis.webm",
+      "mp4": "./assets/video/acropolis.mp4",
+      "youtube": "56d8NuwrpD0"
+    },
+    "region": [
+      "ギリシャ共和国"
+    ],
+    "flagUrl": [
+      "./assets/img/Greece.png"
+    ]
+  },
+  {
+    "id": 107,
+    "cd": "XkGY639wXM",
+    "answer": "セビージャの大聖堂、アルカサルとインディアス古文書館",
+    "answers": [
+      "セビージャの大聖堂",
+      "セビージャ大聖堂",
+      "セビリア大聖堂",
+      "セビリアの大聖堂",
+      "ヒラルダの塔",
+      "ヒラルダ",
+      "ひらるだ",
+      "アルカサル",
+      "あるかさる",
+      "インディアス古文書館"
+    ],
+    "explanation": "1987年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/seville.webm",
+      "mp4": "./assets/video/seville.mp4",
+      "youtube": "yqK9RQgFYVg"
+    },
+    "region": [
+      "スペイン"
+    ],
+    "flagUrl": [
+      "./assets/img/Spain.png"
+    ]
+  },
+  {
     "id": 175,
     "cd": "tpDZDuKeEd",
     "answer": "ロンドン塔",
