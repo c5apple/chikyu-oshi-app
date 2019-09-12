@@ -473,6 +473,31 @@
     ]
   },
   {
+    "id": 111,
+    "cd": "f2dXaNbzG6",
+    "answer": "ブッダガヤの大菩提寺",
+    "answers": [
+      "ブッダガヤ",
+      "ぶっだがや",
+      "マハーボディ寺院",
+      "マハーボディ",
+      "まはーぼでぃ",
+      "ブッダガヤのマハーボディ寺院"
+    ],
+    "explanation": "マハーボディ寺院。2002年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/mahabodhi-temple.webm",
+      "mp4": "./assets/video/mahabodhi-temple.mp4",
+      "youtube": "vv4rOnzNScM"
+    },
+    "region": [
+      "インド"
+    ],
+    "flagUrl": [
+      "./assets/img/India.png"
+    ]
+  },
+  {
     "id": 175,
     "cd": "tpDZDuKeEd",
     "answer": "ロンドン塔",
