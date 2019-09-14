@@ -10,7 +10,7 @@ import { QuestionService, Question } from '../shared/service/question';
 })
 export class QuestionComponent implements OnInit, AfterViewInit, OnDestroy {
 
-  @ViewChild('videoPlayer') videoPlayer: ElementRef;
+  @ViewChild('videoPlayer', { static: false }) videoPlayer: ElementRef;
 
   private sub: any;
 
