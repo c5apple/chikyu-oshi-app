@@ -453,6 +453,23 @@ export class QuestionService {
       flagUrl: ['./assets/img/Denmark.png']
     },
     {
+      id: 129,
+      cd: '8dXnCWeSi7',
+      answer: '古都京都の文化財（京都市、宇治市、大津市）',
+      answers: [
+        '古都京都の文化財', '京都', '京都市', '金閣寺',
+        '清水寺', '延暦寺', '平等院', '西芳寺', '銀閣寺', '龍安寺', '二条城'
+      ],
+      explanation: '金閣寺など。1994年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/kyoto.webm',
+        mp4: './assets/video/kyoto.mp4',
+        youtube: 'FhPC7xy52Qc'
+      },
+      region: ['日本国'],
+      flagUrl: ['./assets/img/Japan.png']
+    },
+    {
       id: 175,
       cd: 'tpDZDuKeEd',
       answer: 'ロンドン塔',
