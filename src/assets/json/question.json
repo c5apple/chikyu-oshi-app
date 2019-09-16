@@ -551,6 +551,29 @@
     ]
   },
   {
+    "id": 134,
+    "cd": "f8iCejgSQg",
+    "answer": "ケルン大聖堂",
+    "answers": [
+      "けるんだいせいどう",
+      "ザンクト・ペーター・ウント・マリア大聖堂",
+      "ザンクトペーターウントマリア大聖堂",
+      "聖ペトロとマリア大聖堂"
+    ],
+    "explanation": "ザンクト・ペーター・ウント・マリア大聖堂。1996年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/kolner-dom.webm",
+      "mp4": "./assets/video/kolner-dom.mp4",
+      "youtube": "KpL4Lkat3ag"
+    },
+    "region": [
+      "ドイツ連邦共和国"
+    ],
+    "flagUrl": [
+      "./assets/img/Germany.png"
+    ]
+  },
+  {
     "id": 175,
     "cd": "tpDZDuKeEd",
     "answer": "ロンドン塔",
