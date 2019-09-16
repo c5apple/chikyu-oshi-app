@@ -437,6 +437,22 @@ export class QuestionService {
       flagUrl: ['./assets/img/India.png']
     },
     {
+      id: 113,
+      cd: 'bVXbThL3uM',
+      answer: 'イルリサット・アイスフィヨルド',
+      answers: [
+        'イルリサット', 'いるりさっと', 'アイスフィヨルド', 'あいすふぃよるど'
+      ],
+      explanation: '2004年に登録された世界自然遺産です。',
+      videoUrl: {
+        webm: './assets/video/ilulissat-icefjord.webm',
+        mp4: './assets/video/ilulissat-icefjord.mp4',
+        youtube: 'oto8XRBMFdM'
+      },
+      region: ['デンマーク'],
+      flagUrl: ['./assets/img/Denmark.png']
+    },
+    {
       id: 175,
       cd: 'tpDZDuKeEd',
       answer: 'ロンドン塔',
