@@ -486,6 +486,22 @@ export class QuestionService {
       flagUrl: ['./assets/img/Germany.png']
     },
     {
+      id: 138,
+      cd: 'Z8mRhrSUrR',
+      answer: 'リラ修道院',
+      answers: [
+        'りら修道院', 'りらしゅうどういん'
+      ],
+      explanation: '1983年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/rila.webm',
+        mp4: './assets/video/rila.mp4',
+        youtube: 'GkKKkN0nZzc'
+      },
+      region: ['ブルガリア共和国'],
+      flagUrl: ['./assets/img/Bulgaria.png']
+    },
+    {
       id: 175,
       cd: 'tpDZDuKeEd',
       answer: 'ロンドン塔',
