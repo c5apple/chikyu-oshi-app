@@ -502,6 +502,22 @@ export class QuestionService {
       flagUrl: ['./assets/img/Bulgaria.png']
     },
     {
+      id: 145,
+      cd: 'eGNkewL7w2',
+      answer: 'ヴェルサイユの宮殿と庭園',
+      answers: [
+        'ヴェルサイユ宮殿', 'ベルサイユ宮殿', 'べるさいゆきゅうでん'
+      ],
+      explanation: '1979年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/versailles.webm',
+        mp4: './assets/video/versailles.mp4',
+        youtube: 'SRTQsvPgtA8'
+      },
+      region: ['フランス共和国'],
+      flagUrl: ['./assets/img/France.png']
+    },
+    {
       id: 175,
       cd: 'tpDZDuKeEd',
       answer: 'ロンドン塔',
