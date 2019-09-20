@@ -633,6 +633,29 @@
     ]
   },
   {
+    "id": 208,
+    "cd": "zWdL2zFQ3y",
+    "answer": "自由の女神像",
+    "answers": [
+      "自由の女神",
+      "じゆうのめがみ",
+      "じゆうのめがみぞう",
+      "🗽"
+    ],
+    "explanation": "1984年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/statue-of-liberty.webm",
+      "mp4": "./assets/video/statue-of-liberty.mp4",
+      "youtube": "py87TzjWoN8"
+    },
+    "region": [
+      "アメリカ合衆国"
+    ],
+    "flagUrl": [
+      "./assets/img/United-States-of-America.png"
+    ]
+  },
+  {
     "id": 266,
     "cd": "izQEb69Mgd",
     "answer": "シドニー･オペラハウス",
