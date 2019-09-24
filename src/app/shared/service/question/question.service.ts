@@ -534,6 +534,22 @@ export class QuestionService {
       flagUrl: ['./assets/img/United-Kingdom.png']
     },
     {
+      id: 207,
+      cd: 'GJ5MR53CRZ',
+      answer: 'ストーンヘンジ、エーヴベリーと関連する遺跡群',
+      answers: [
+        'ストーンヘンジ', 'すとーんへんじ', 'エーブベリー', 'エーヴベリー'
+      ],
+      explanation: '1986年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/stonehenge.webm',
+        mp4: './assets/video/stonehenge.mp4',
+        youtube: 'jLkZQfbg0QM'
+      },
+      region: ['英国（グレートブリテン及び北アイルランド連合王国）'],
+      flagUrl: ['./assets/img/United-Kingdom.png']
+    },
+    {
       id: 208,
       cd: 'zWdL2zFQ3y',
       answer: '自由の女神像',
