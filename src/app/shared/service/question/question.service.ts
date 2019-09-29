@@ -518,6 +518,22 @@ export class QuestionService {
       flagUrl: ['./assets/img/France.png']
     },
     {
+      id: 167,
+      cd: '26Gc3FRF4B',
+      answer: 'ピサのドゥオモ広場',
+      answers: [
+        'ドゥオモ広場', 'ピサの斜塔'
+      ],
+      explanation: 'ピサの斜塔。1987年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/piazza-del-duomo.webm',
+        mp4: './assets/video/piazza-del-duomo.mp4',
+        youtube: 'GX9JdozINt8'
+      },
+      region: ['イタリア'],
+      flagUrl: ['./assets/img/Italy.png']
+    },
+    {
       id: 175,
       cd: 'tpDZDuKeEd',
       answer: 'ロンドン塔',
