@@ -638,6 +638,27 @@
     ]
   },
   {
+    "id": 167,
+    "cd": "MBsuDz39Rx",
+    "answer": "ベルリンのムゼウムスインゼル（博物館島",
+    "answers": [
+      "ムゼウムスインゼル",
+      "博物館島"
+    ],
+    "explanation": "1999年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/museumsinsel.webm",
+      "mp4": "./assets/video/museumsinsel.mp4",
+      "youtube": "3Fu0pm2nfV0"
+    },
+    "region": [
+      "ドイツ連邦共和国"
+    ],
+    "flagUrl": [
+      "./assets/img/Germany.png"
+    ]
+  },
+  {
     "id": 175,
     "cd": "tpDZDuKeEd",
     "answer": "ロンドン塔",
