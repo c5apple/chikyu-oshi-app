@@ -98,6 +98,32 @@
     ]
   },
   {
+    "id": 15,
+    "cd": "wXVJ2e4AMX",
+    "answer": "メンフィスとその墓地遺跡-ギーザからダハシュールまでのピラミッド地帯",
+    "answers": [
+      "メンフィスとその墓地遺跡",
+      "ギザの墓地遺跡",
+      "ピラミッド",
+      "三大ピラミッド",
+      "ギザのピラミッド群",
+      "ギザの大ピラミッド",
+      "ギザのピラミッド"
+    ],
+    "explanation": "1979年に登録された世界文化遺産です。",
+    "videoUrl": {
+      "webm": "./assets/video/great-pyramid-of-giza.webm",
+      "mp4": "./assets/video/great-pyramid-of-giza.mp4",
+      "youtube": "XjaFZxdTVuk"
+    },
+    "region": [
+      "エジプト・アラブ共和国"
+    ],
+    "flagUrl": [
+      "./assets/img/Egypt.png"
+    ]
+  },
+  {
     "id": 22,
     "cd": "rrQ6MpAr5U",
     "answer": "モン-サン-ミシェルとその湾",
