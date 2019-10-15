@@ -551,7 +551,7 @@ export class QuestionService {
       flagUrl: ['./assets/img/Italy.png']
     },
     {
-      id: 167,
+      id: 173,
       cd: 'MBsuDz39Rx',
       answer: 'ベルリンのムゼウムスインゼル（博物館島）',
       answers: [
@@ -618,6 +618,22 @@ export class QuestionService {
       },
       region: ['アメリカ合衆国'],
       flagUrl: ['./assets/img/United-States-of-America.png']
+    },
+    {
+      id: 225,
+      cd: 'criBM7mh4s',
+      answer: 'ドナウ河岸、ブダ城地区及びアンドラーシ通りを含むブダペスト',
+      answers: [
+        'ドナウ河岸', 'ブダ城', 'アンドラーシ通り', 'ブダペスト'
+      ],
+      explanation: '1987年、2002年に登録された世界文化遺産です。',
+      videoUrl: {
+        webm: './assets/video/budavari-palota.webm',
+        mp4: './assets/video/budavari-palota.mp4',
+        youtube: 'IJZdeRzNGyA'
+      },
+      region: ['ハンガリー'],
+      flagUrl: ['./assets/img/Hungary.png']
     },
     {
       id: 266,
