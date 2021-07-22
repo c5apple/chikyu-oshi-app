@@ -153,7 +153,7 @@ foreach(glob('../{styles*.css}',GLOB_BRACE) as $file){
           <h2 class="h4"><span class="red">世界遺産</span>の名称をお答えください。</h2>
           <video>
             <source type="video/mp4" src="<?= $question['videoUrl']['mp4'] ?>">
-            <source type="video/webm" src="<?= $question['videoUrl']['webm'] ?>">
+            <!-- <source type="video/webm" src="<?= $question['videoUrl']['webm'] ?>"> -->
             地球を再生できません。友達のスマホを借りてみてね。
           </video>
           <div class="container">
